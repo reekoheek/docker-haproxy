@@ -1,0 +1,52 @@
+HTTP/1.0 503 Service Unavailable
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color: #D1D9DD;
+                background-image: url(http://111.221.43.117/img/404.jpg);
+                background-size: cover;
+                background-position: top right;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div {
+                position: fixed;
+                left: 50px;
+                top: 50px;
+            }
+
+            div * {
+                padding: 0;
+                margin: 0
+            }
+
+            h1 {
+                color: red;
+                font-size: 10rem;
+                font-family: sans-serif;
+                text-shadow: 2px 2px 10px #fff;
+            }
+
+            h2 {
+                color: #000;
+                font-size: 2rem;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>503</h1>
+            <h2>layanan sudah tutup mas...</h2>
+        </div>
+    </body>
+</html>
+

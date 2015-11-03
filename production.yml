@@ -1,0 +1,4 @@
+haproxy:
+  extends:
+    file: base.yml
+    service: haproxy

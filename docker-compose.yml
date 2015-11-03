@@ -1,0 +1,6 @@
+haproxy:
+  extends:
+    file: base.yml
+    service: haproxy
+  ports:
+    - "8080:8080"
