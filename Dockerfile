@@ -3,7 +3,7 @@ FROM debian
 MAINTAINER Ganesha <reekoheek@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV APT_PROXY http://192.168.99.101:3128
+ENV APT_PROXY http://192.168.1.10:3128
 
 RUN \
   echo "\n\
